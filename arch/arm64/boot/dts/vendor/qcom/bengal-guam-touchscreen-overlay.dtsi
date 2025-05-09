@@ -170,7 +170,6 @@
 		panel = <&dsi_hlt_ili9882h_video &dsi_hlt_tinno_ili9882h_video>;
 		panel2 = <&dsi_tm_ili9882n_video>;
 	};
-/*
 	chipone_tddi@2 {
 		compatible = "chipone-tddi";
 		reg = <2>;
@@ -186,8 +185,7 @@
 		chipone,def-build-id = <0x010a>;
 		chipone,def-config-id = <0x0001>;
 		panel = <&dsi_tm_icnl9911s_video>;
-         };
-*/
+	};
 	focaltech@2 {
 		compatible = "focaltech,fts";
 		reg = <0x2>;
